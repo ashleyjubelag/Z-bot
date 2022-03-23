@@ -69,6 +69,10 @@ client.on('messageCreate', message => {
         message.reply('You mean the Korean whisperer?')
         break;
 
+      case 'ash':
+        message.reply('https://cdn.discordapp.com/attachments/912553636079489024/956153622276759552/B77AFA07-C6A2-43EC-8509-3C811385BE50.jpg')
+        break;
+
       case 'mako':
         var num = randomInt(1,2);
         console.log(num);
